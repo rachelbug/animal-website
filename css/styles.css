@@ -25,12 +25,24 @@ body {
   margin-left: 10px;
   border: 3px dotted #ffc2b3;
   float: left;
+
 }
 
-.column h3 {
-  font-size: 30px;
-}
+/*--------------------------------
+Media Queries
+/*--------------------------------*/
 
-.column2 h3 {
-  color: blue;
+
+/* max-width - anything less than or equal to the value defined */
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  body {
+    background: #990073;
+    color: #FFF;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    background: #003399;
+  }
 }
